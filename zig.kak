@@ -48,7 +48,7 @@ add-highlighter shared/zig/code/values regex \b(?:true|false|[0-9][_0-9]*(?:\.[0
 add-highlighter shared/zig/code/attributes regex \b(?:struct|enum|type|const)\b 0:attribute
 
 add-highlighter shared/zig/code/keywords             regex \b(?:fn|return|if|else|while|for|break|continue|pub||async|await|export|extern|comptime)\b 0:keyword
-add-highlighter shared/zig/code/builtin_types        regex \b(?:usize|isize|bool)\b 0:type
+add-highlighter shared/zig/code/builtin_types        regex \b(?:usize|isize|bool|c_int|c_short|c_long|c_longlong|c_longdouble|c_void|c_ushort|c_uint|c_ulonglong)\b 0:type
 add-highlighter shared/zig/code/integer_types        regex \b(?:i|u)(\d+)\b 0:type
 add-highlighter shared/zig/code/float_types          regex \b(?:f32|f64)\b 0:type
 add-highlighter shared/zig/code/return               regex \breturn\b 0:meta
