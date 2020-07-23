@@ -1,12 +1,19 @@
-# zig-kak
+# note
+
+kakoune master branch has builtin zig highlighting, afaik it isn't in a release
+yet but: https://github.com/mawww/kakoune/pull/3422
+
+thank you so much, ifreund
+
+## (what is) zig-kak
 
 wip plugin providing zig support in kakoune
 
-this only provides syntax highlighting and zig fmt.
+this only provides syntax highlighting.
 
 ## using zig fmt in kakoune
 
-requires this plugin
+requires this edit to kakrc
 
 ```
 hook global WinSetOption filetype=zig %{
